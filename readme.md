@@ -1,4 +1,4 @@
-#Preeti translation
+# Preeti translation
 ```javascript
 $('body').on('input', '.convert-preeti', function (event) {
 	var text = this.value;
@@ -9,7 +9,7 @@ $('body').on('input', '.convert-preeti', function (event) {
 });
 ```
 
-#Romanize translation
+# Romanize translation
 ```javascript
 $('body').on('keypress', '.convert-romanize', function (event) {
 	return setUnicode(event,this);
