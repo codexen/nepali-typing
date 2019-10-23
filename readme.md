@@ -23,5 +23,5 @@ $('body').on('keypress', '.convert-romanize', function (event) {
 Example:
 kodejen = कोदजेन
 
-![alt text](https://github.com/codexen/nepali-typing/guide/keyboardlayout-traditional.png "Traditional translation")
-![alt text](https://github.com/codexen/nepali-typing/guide/keyboardlayout-romanized.png "Romanized translation")
+![Nepali preeti to unicode](https://github.com/codexen/nepali-typing/blob/master/guide/keyboardlayout-traditional.jpg "Traditional translation")
+![Nepali romanized translation](https://github.com/codexen/nepali-typing/blob/master/guide/keyboardlayout-romanized.jpg "Romanized translation")
