@@ -1,6 +1,7 @@
 # Preeti translation
-```javascript		
-<script src="preeti.js"></script>
+###### add preeti.js
+
+```javascript	
 $('body').on('input', '.convert-preeti', function (event) {
 	var text = this.value;
 	var convert = setUnicodePreeti(text);
@@ -14,8 +15,9 @@ $('body').on('input', '.convert-preeti', function (event) {
 ![Nepali preeti to unicode](https://github.com/codexen/nepali-typing/blob/master/guide/keyboardlayout-traditional.jpg "Traditional translation")
 
 # Romanize translation
+###### add romanize.js
+
 ```javascript
-<script src="romanize.js"></script>
 $('body').on('keypress', '.convert-romanize', function (event) {
 	return setUnicode(event,this);
 });
