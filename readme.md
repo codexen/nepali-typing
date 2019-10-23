@@ -7,21 +7,17 @@ $('body').on('input', '.convert-preeti', function (event) {
 
 	return true;
 });
+// Example: sf]bh]g = कोदजेन
 ```
-Example:
-sf]bh]g = कोदजेन
 
-
+![Nepali preeti to unicode](https://github.com/codexen/nepali-typing/blob/master/guide/keyboardlayout-traditional.jpg "Traditional translation")
 
 # Romanize translation
 ```javascript
 $('body').on('keypress', '.convert-romanize', function (event) {
 	return setUnicode(event,this);
 });
+// Example: kodejen = कोदजेन
 ```
 
-Example:
-kodejen = कोदजेन
-
-![Nepali preeti to unicode](https://github.com/codexen/nepali-typing/blob/master/guide/keyboardlayout-traditional.jpg "Traditional translation")
 ![Nepali romanized translation](https://github.com/codexen/nepali-typing/blob/master/guide/keyboardlayout-romanized.jpg "Romanized translation")
