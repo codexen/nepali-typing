@@ -1,5 +1,6 @@
 # Preeti translation
-```javascript
+```javascript		
+<script src="preeti.js"></script>
 $('body').on('input', '.convert-preeti', function (event) {
 	var text = this.value;
 	var convert = setUnicodePreeti(text);
@@ -14,6 +15,7 @@ $('body').on('input', '.convert-preeti', function (event) {
 
 # Romanize translation
 ```javascript
+<script src="romanize.js"></script>
 $('body').on('keypress', '.convert-romanize', function (event) {
 	return setUnicode(event,this);
 });
